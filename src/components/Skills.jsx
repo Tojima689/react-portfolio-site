@@ -2,7 +2,6 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { requestStates } from "../constants";
 import { useSkills } from "../customHooks/useSkills";
-import { PiFireTruckLight } from "react-icons/pi";
 
 export const Skills = () => {
     const [sortedLanguageList, fetchRequestState, converseCountToPercentage] = useSkills();
